@@ -35,6 +35,9 @@ export default class App extends Component {
 		  </ul>
 
 		  <YourComponent/>
+		  
+		  
+		  
       </div>
     );
   }
