@@ -1,8 +1,11 @@
 {
+  "homepage": "https://abrahamhorus.github.io/generation-take-home/",
   "name": "react-hot-boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate for ReactJS project with hot code reloading",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node server.js",
     "lint": "eslint src"
   },
@@ -26,7 +29,6 @@
   "bugs": {
     "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
   },
-  "homepage": "https://github.com/gaearon/react-hot-boilerplate",
   "devDependencies": {
     "babel-core": "^6.0.20",
     "babel-eslint": "^4.1.3",
