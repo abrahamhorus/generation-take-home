@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
-import GoogleMapReact from 'google-map-react';
 
-/*
-* Use this component as a launching-pad to build your functionality.
-*
-*/
+
+
 export default class Mapa extends Component {
 
   render() {
     return (
       <div className='put'>
 		  <h1> Put your solution here!</h1>
-      <iframe src="https://www.google.com/maps/d/embed?mid=16GxY_KC_8P2ekkBhe0eBznRCuALBrQI&ehbc=2E312F" width="100%" height="500"></iframe>
-       {/*PUEDEN CUESTIONAR MIS METODOS PERO NO MIS RESULTADOS xD*/}
+          <iframe src="https://www.google.com/maps/d/embed?mid=16GxY_KC_8P2ekkBhe0eBznRCuALBrQI&ehbc=2E312F" width="100%" height="500"></iframe>
+       {/*PUEDEN CUESTIONAR MIS METODOS PERO NO MIS RESULTADOS xD, el repo del ejercicio esta obsoleto y me daba muchos problemas, pense en una solucion rapida.*/}
 
        
       {/*<GoogleMapReact
@@ -29,4 +26,3 @@ export default class Mapa extends Component {
     );
   }
 }
-

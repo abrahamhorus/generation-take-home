@@ -1,9 +1,16 @@
-import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
 import Mapa from './Mapa';
-export default class App extends Component {
-  render() {
-    return (
-		
+function App() {
+  return (
+    <div className="App">
+         <br></br>
+    <div class="bg"></div>
+          <div class="bg bg2"></div>
+          <div class="bg bg3"></div>
+        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo2" alt="logo" />
+      
       <div className='instruciones'>
 		  <br></br>
 		  <h1>Hi! Welcome to the Generation take-home interview!</h1>
@@ -41,6 +48,8 @@ export default class App extends Component {
 		  
 		  
       </div>
-    );
-  }
+    </div>
+  );
 }
+
+export default App;
