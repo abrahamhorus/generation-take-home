@@ -125,3 +125,15 @@ ul
   text-align: justify;
   position: relative;
 }
+
+@media (max-width: 450px) {
+ ul
+{
+  width: 70%;
+  text-align: justify;
+  position: relative;
+ 
+} 
+
+
+}
