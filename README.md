@@ -57,3 +57,5 @@ Your changes will appear without reloading the browser like in [this video](http
 ### Source
 
 This boilerplate project is a mirror plus a few additions from gaearon's react boilerplate (https://github.com/gaearon/react-hot-boilerplate)
+
+runing: https://abrahamhorus.github.io/generation-take-home/
